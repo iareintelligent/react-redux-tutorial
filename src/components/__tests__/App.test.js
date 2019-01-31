@@ -15,5 +15,5 @@ it("shows a CommentBox", () => {
 });
 
 it("shows a CommentList", () => {
-    expect(wrapped.find(CommentList).length).toEqual(1);
+    expect(wrapped.find(CommentList).length).toEqual(0);
 });
